@@ -131,8 +131,8 @@
         android:padding="@dimen/keyguard_affordance_padding"
         android:src="@*android:drawable/ic_phone"
         android:scaleType="center"
-        android:tint="?attr/wallpaperTextColor"
-        android:contentDescription="@string/accessibility_phone_button" />
+        android:contentDescription="@string/accessibility_phone_button"
+        android:tint="?attr/wallpaperTextColor" />
 
     <FrameLayout
         android:id="@+id/overlay_container"
